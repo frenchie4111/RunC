@@ -15,6 +15,6 @@ done
 
 echo "}" >> $TMPFILE;
 
-clang -o /tmp/runc $TMPFILE
+gcc -o /tmp/runc $TMPFILE
 rm $TMPFILE
 /tmp/runc
